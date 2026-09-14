@@ -34,7 +34,7 @@
     </div>
 
     <div class="filters">
-      <input type="text" id="item-search" placeholder="Cari item...">
+      <input type="search" id="item-search" placeholder="Cari pet..." autocomplete="off">
       <select id="category-filter">
         <option value="">Semua Kategori</option>
         <option value="pet">Pet</option>
@@ -53,6 +53,7 @@
         <option value="divine">Divine</option>
       </select>
     </div>
+    <p class="results-count" id="results-count"></p>
 
     <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px;">
       <strong>Catatan:</strong> Income = <em>base</em>. Final = Base × Size × Mutation.<br>
